@@ -4,27 +4,27 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Stanislau Iuchyn
+    tagline: IT engineer(DevOps, SRE, Cloud Architect)
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: example@email.com
-    phone: 012 345 6789
-    timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-    citizenship:
-    website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-    linkedin: alandoe
-    xing: alandoe
-    github: jekyll
+    email: stanislau.iuchyn@gmail.com
+    phone:
+    timezone: Europe/Vilnius # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+    citizenship: Belarus
+    website: ###https://example.com/ # Include the full website URL, including "http://" or "https://".
+    linkedin: stanislau-iuchyn
+    xing:
+    github: sivchin
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@jekyllrb'
+    twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -36,233 +36,200 @@ sidebar:
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Russian
           level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
+        - idiom: English
           level: Professional
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Basketball
           link:
 
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
+        - item: Running
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Highly motivated IT professional with a focus on application lifecycle management, cloud strategy, enablement, innovation, and migration management.
+      Proven experience in building teams from scratch, defining processes, and hiring top talent.
+      Passionate about fostering collaborative and innovative work environments.
+      Extensive expertise in cloud architecture, with proficiency in both cloud-native and cloud-agnostic platforms.
+      In-depth knowledge of CI/CD processes specifically for the GameDev industry.
+      Skilled in designing cloud services using Kubernetes and an Infrastructure-as-Code (IaC) approach.
+      Experienced in implementing DevSecOps, FinOps, and GitOps strategies.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Bachelor degree in Telecommunications
+        university: Belarusian State University of Informatics and Radioelectronics(BSUIR)
+        time: 2003 - 2008
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Telecommunications engineer
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Head of DevOps
+        time: 2021 - Present
+        company: Moon Active
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          - Managed the team of DevOps Engineers (perfomance review, feedback, development of knowledge and skills, on-call duties)
+          - Managed infrastructure and operational costs,continuously optimizing resource utilization (reduced the cost of infrastructure by 30%)
+          - Contributed to the successful company acquisition to ensure seamless integration of systems, processes, and infrastructure
+          - Negotiations with SaaS companies
+          - Investigated and implemented service for gathering metrics from all players
+          - Implemented CI security checks and waf/ddos protection for the game infrustructure
+          - Liveops support - CI for validation and deploy liveops events to production
+          - Implemented deployment process for the frequent update of microservices
+
+          **Tech stack**: Linux, GCP, AWS, Cloudflare, Kubernetes, ArgoCD, Terraform, Ansible, MySQL, Redis, Postgresql, GitHub actions, Bash, Python, Go, Prometheus, VictoriaMetrics
+
+      - role: DevOps Team Lead
+        time: 2019 – 2021
+        company: Melsoft Games (Acquired by Moon Active)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          - Team technical mentorship
+          - Migration from dedicated DC to GCP/GKE
+          - Migrations of CI/CD pipelines from self-hosted Jenkins and Gitlab CI to Azure DevOps and Github Actions
+          - Transitioned monitoring from Zabbix to Prometheus/VictoriaMetrics
+          - Adopted GitOps approach using ArgoCD and Atlantis
+          - Managing night shifts and Level 2 (L2) on-call duties
+          - Enhanced security through DevSecOps practices with tools like wiz.io, Google Security Center, AquaTools, Gitleaks
+
+          **Tech stack**: Linux, GCP, AWS, Cloudflare, Kubernetes, Helm, ArgoCD, Terraform, Docker, Artifactory, MySQL, Redis, Postgresql, Ansible, GitHub actions, Jenkins, Bash, Python, Go, Prometheus, VictoriaMetrics, Consul, Nats
+      - role: DevOps Engineer
+        time: 2017 – 2019
+        company: Melsoft Games (Acquired by Moon Active)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          - Migrated infrastructure IaC from Puppet to Ansible
+          - Transitioned monitoring from Zabbix to Prometheus
+          - Deployed and managed ELK stack for logging
+          - Set up and tuned HA PostgreSQL databases
+          - Supported and deployed backend game services with Ansible
+          - Managed AWS services (S3, CloudFront, Route 53)
+          - Supported client build processes with Jenkins and Gitlab CI
+          - Managing night shifts and Level 2 (L2) on-call duties
+
+          **Tech stack**: Linux, GCP, AWS, Kubernetes, Helm, Terraform, Docker, Artifactory, MySQL, Redis, Postgresql, Ansible, Gitlab CI, Jenkins, Bash, Python, Prometheus, Consul, Nats
+      - role: Deployment Engineer
+        time: 2012 – 2017
+        company: Wargaming
+        details: |
+          - Maintaining and supporting services, managing complex releases and performing regular maintenance to ensure system stability and reliability
+          - Managing night shifts and Level 2 (L2) on-call duties
+          - Leading implementation of a log analysis service using the ELK stack that greatly improved monitoring and troubleshooting capabilities
+          - Enhancing deployment processes by integrating Ansible, which streamlined operations and increased efficiency
+          - Creation of deployment tools for new projects, such as World of Warships and WOT Blitz. This required close collaboration with cross-functional teams to identify critical data and ensure proper retention, contributing to improved performance and system reliability
+
+          **Tech stack**: Linux, Python/Bash, Puppet/Ansible, Subversion/Git, ELK, Zabbix/Sensu.
 
 certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
+  ###      title: Certifications
+  ###      list:
+  ###        - name: CV Builder
+  ###          start: 2020
+  ###          end: 2021
+  ###          organization: Microsoft
+  ###          credentialid: 111-222
+  ###          credentialurl: www.google.com
+  ###          credentialname: Google
+  ###          details: |
+  ###            Details about cert. Lorem ipsum dolor sit amet, consectetur
+  ###            adipiscing elit.
+  ###            Nullam eget orci purus. Nullam ultrices neque nibh.
+  ###            Aenean fermentum, felis vulputate suscipit accumsan,
+  ###            sem enim bibendum augue, sed convallis arcu lacus at dui.
+  ###            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+  ###            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+  ###            Praesent venenatis erat non augue suscipit consectetur.
+  ###
+  ###            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+  ###            fringilla vel. Ut euismod, sem sed vulputate venenatis,
+  ###            justo diam viverra velit, sed rhoncus leo leo eu justo.
+  ###            Suspendisse placerat risus ante, sed porta nisi blandit at.
+  ###        - name: Git learning
+  ###          start: 2019
+  ###          end:
+  ###          organization: Microsoft
+  ###          credentialid: 111-222
+  ###          credentialurl: www.github.com
+  ###          credentialname: Github
+  ###          details: |
+  ###            Older certification. Lorem ipsum dolor sit amet, consectetur
+  ###            adipiscing elit.
+  ###            Nullam eget orci purus. Nullam ultrices neque nibh.
+  ###            Aenean fermentum, felis vulputate suscipit accumsan,
+  ###            sem enim bibendum augue, sed convallis arcu lacus at dui.
+  ###            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+  ###            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+  ###            Praesent venenatis erat non augue suscipit consectetur.
+  ###
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  ##    title: Projects
+  ##    intro: >
+  ##      You can list your side projects in this
+  ##      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  ##      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  ##    assignments:
+  ##      - title: Velocity
+  ##        link: "#hook"
+  ##        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  ##
+  ##      - title: DevStudio
+  ##        link: "#"
+  ##        tagline: "A responsive website template designed to help web developers/designers market their services."
 
 oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  ##    title: OSS Contributions
+  ##    intro: >
+  ##      You can list your open source software contributions in this
+  ##      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  ##      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  ##    contributions:
+  ##      - title: Tempo
+  ##        link: "#"
+  ##        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+  ##    title: Publications
+  ##    intro: |
+  ##      You can list your publications in this section. Lorem ipsum dolor sit
+  ##      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+  ##      bibendum fringilla a eu lectus.
+  ##    papers:
+  ##      - title: The Art of Computer Programming
+  ##        link: "#"
+  ##        authors: Donald E. Knuth
+  ##        conference: Addison-Wesley, 1968
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
+      - name: GCP
+        level: 90%
+      - name: AWS
+        level: 50%
+      - name: Kubernetes
+        level: 90%
+      - name: ArgoCD & Helm
+        level: 90%
+      - name: Terraform
+        level: 80%
+      - name: Ansible
         level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Bash
+        level: 70%
+      - name: Python
+        level: 40%
+      - name: Go
+        level: 30%
+      - name: Prometheus & Victoriametrics
+        level: 70%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
